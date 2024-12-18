@@ -1,9 +1,9 @@
 
-# Setup
+# Steps to reproduce
 
-1. Upload files to any subscription
-2. Configure the schedule task
-3. ![schedule-task-config.png](img/schedule-task-config.png)
+1. Upload the `runner.php` and `worker.php` to any subscription.
+2. Configure the schedule task ![schedule-task-config.png](img/schedule-task-config.png)
+3. Execute the task by clicking on "Run Now" in the "Scheduled Tasks for test.xyz.tld" page
 
 # Expected output
 
