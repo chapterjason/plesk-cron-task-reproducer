@@ -36,6 +36,8 @@ try {
         $listOutput = shell_exec($listCommand);
 
         if (!str_contains($listOutput, $screenName)) {
+            file_put_contents($logPath, '');
+
             fwrite($stderr, "Starting worker\n");
             shell_exec($createCommand);
         } else {
